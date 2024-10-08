@@ -45,5 +45,4 @@ criaCartao(
     'Infinitas'
 )
 
-criaCartao(
-    'historia',
+
