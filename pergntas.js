@@ -50,3 +50,21 @@ criaCartao(
     'Atualmente, quantos elementos químicos a tabela periódica possui?',
     '118'
 )
+
+criaCartao(
+    'ingles',
+    'O que a palavra legend significa em português?',
+    'Lenda.'
+)
+
+criaCartao(
+    'Artes',
+    'Quem pintou "Guernica"?',
+    'Pablo Picasso'
+)
+
+criaCartao(
+    'Física',
+    'Em que ordem surgiram os modelos atômicos?',
+    'Dalton, Thomson, Rutherford, Rutherford-Bohr'
+)
