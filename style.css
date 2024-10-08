@@ -6,3 +6,16 @@
     --preto:#000000;
     --branco:#ffffff;
 }
+
+body{
+    background: var(--fundo);
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    background-color:#68265f;
+    color: var(--branco);
+    width: 100%;
+    text-align: center;
+}
