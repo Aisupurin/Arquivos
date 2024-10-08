@@ -45,4 +45,8 @@ criaCartao(
     'Infinitas'
 )
 
-
+criaCartao(
+    'Quimica',
+    'Atualmente, quantos elementos químicos a tabela periódica possui?',
+    '118'
+)
