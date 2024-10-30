@@ -13,5 +13,5 @@ function criaCartao (categoria, pergunta, resposta){
 </div>
     let respostaEstaVisivel = false;
 
-    container.appendChild(cartao)
+    container.appendChild(cartao);
 }
