@@ -72,13 +72,20 @@ footer{
 .resposta-cartao{
     color: var(--destaque);
     font-weight: 700;
+    transform: rotateY(1880deg);
+    background-color: var(--carto-tras);
+    border: 2px soid var(--destaue);
 }
 
-.cartao:hover .conteudo-cartao{
+.cartao.active .conteudo-cartao{
     transform: rotateY(180deg);
 
 }
 
 .pergunta-cartao, .resposta-cartao{
     backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
 }
