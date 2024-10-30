@@ -1,0 +1,25 @@
+:root{
+    --fundo: #abddec;	
+    --cartao-frente:#b1b1df;
+    --cartao-tras:#4a4a79;
+    --destaque:#68265f;
+    --preto:#000000;
+    --branco:#ffffff;
+}
+
+body{
+    background: var(--fundo);
+}
+
+header a{
+    color: var(--branco)
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 100%;
+    text-align: center;
+}
