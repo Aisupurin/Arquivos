@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    color: var(--preto)
+    color: var(--preto);
     padding: 40px;
     display:flex;
     justify-content: space-around;
@@ -27,7 +27,7 @@ footer{
     text-align: center;
 }
 
-#conrainer{
+#container{
     display: grid;
     padding: 20px;
     gap: 4rem;
