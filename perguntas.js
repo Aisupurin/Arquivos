@@ -68,3 +68,26 @@ criaCartao(
     'Em que ordem surgiram os modelos atômicos?',
     'Dalton, Thomson, Rutherford, Rutherford-Bohr'
 )
+
+criaCartao(
+    'Matematica',
+    'quanto é 1+1?',
+    '2'
+)
+
+criaCartao(
+    'Matematica',
+    'quanto é 2+2?',
+    '4',
+)
+
+criaCartao(
+    'Matematica',
+    'quanto é 4+4?',
+    '8',
+)
+
+criaCartao(
+    'Matematica',
+    'quanto é 8+8?',
+    '16'

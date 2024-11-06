@@ -23,3 +23,21 @@ footer{
     width: 100%;
     text-align: center;
 }
+
+#conrainer{
+    display: grid;
+    padding: 20px;
+    gap: 4ren;
+}
+
+.conteudo-carta{
+    padding: 40px;
+    background-color: var(var(--cartao-frente));
+    color: var(--branco)
+}
+
+.resposta-cartao{
+padding: 40px;
+background-color: var(--cartao-verso);
+}
+
