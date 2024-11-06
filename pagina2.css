@@ -35,7 +35,7 @@ footer{
 
 .conteudo-cartao{
     padding: 40px;
-    background-color: var(var(--cartao-frente));
+    background-color: var(--cartao-frente);
     color: var(--branco)
 }
 
