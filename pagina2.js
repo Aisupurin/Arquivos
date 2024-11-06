@@ -28,6 +28,11 @@ container.appendChild(cartao)
 
 function mostraresposta(card){
     const resposta =card.querySelector(' .respostas-cartao')
-    if(resposta.style.display === 'nome'){
+    if(resposta.style.display === 'none'){
+        respostas.style.display = 'block';
+}
+else{
+    resposta.skyle.display = 'none';
 
+}
 }
