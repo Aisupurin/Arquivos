@@ -45,7 +45,7 @@ footer{
     display: none;
 }
 
-.conteudo-cartao :hover{
+.conteudo-cartao:hover{
     transform: scale(1.04);
 }
 
