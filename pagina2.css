@@ -27,7 +27,7 @@ footer{
 #conrainer{
     display: grid;
     padding: 20px;
-    gap: 4ren;
+    gap: 4rem;
 }
 
 .conteudo-cartao{
