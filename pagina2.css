@@ -30,14 +30,18 @@ footer{
     gap: 4ren;
 }
 
-.conteudo-carta{
+.conteudo-cartao{
     padding: 40px;
     background-color: var(var(--cartao-frente));
     color: var(--branco)
 }
 
 .resposta-cartao{
-padding: 40px;
-background-color: var(--cartao-verso);
+    padding: 40px;
+    background-color: var(--cartao-verso);
+}
+
+.conteudo-cartao :hover{
+    transform: scale(1,08);
 }
 

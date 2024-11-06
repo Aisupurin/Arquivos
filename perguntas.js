@@ -90,4 +90,23 @@ criaCartao(
 criaCartao(
     'Matematica',
     'quanto é 8+8?',
-    '16'
+    '16',
+)
+
+criaCartao(
+    'Matematica',
+    'quanto é 9+9?',
+    '18',
+)
+
+criaCartao(
+    'Matematica',
+    'quanto é 10+10?',
+    '20',
+)
+
+ criaCartao(
+    'Matematica',
+    'quanto é 11+11?',
+    '22'
+ )
