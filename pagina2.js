@@ -3,7 +3,7 @@ function criaCartao (categoria, pergunta, resposta){
     let cartao = document.createElement('article');
     cartao.className = 'cartao';
     cartao.innerHTML = `
-    <div class="conteudo-cartao" onclick = "mostraResposta(this)">
+    <div class="conteudo-cartao" onclick = "mostraresposta(this)">
     <h3>${categoria}</h3>
     <div class="pergunta-cartao">
         <p>${pergunta}</p>
@@ -14,22 +14,13 @@ function criaCartao (categoria, pergunta, resposta){
 </div>
 `  
 
-let respostaEstaVisível = false;
-
-function viraCartao(){
-    respostaEstaVisível = !respostaEstaVisível;
-    cartao.classList.toggle('active', respostaEstaVisível);
-}
-
-cartao.addEventListener('click', viraCartao);
-
 container.appendChild(cartao)
 }
 
 function mostraresposta(card){
     const resposta =card.querySelector(' .respostas-cartao')
     if(resposta.style.display === 'none'){
-        respostas.style.display = 'block';
+        resposta.style.display = 'block';
 }
 else{
     resposta.skyle.display = 'none';
